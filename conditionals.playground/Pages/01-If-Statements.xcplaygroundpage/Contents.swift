@@ -28,9 +28,10 @@ let notEqualToExample = "boolean" != "random string"
 let lessThanEqualToExample = 0 <= 0
 let greaterThanEqualToExample = 1 >= 0
 //: - experiment: Try out some _boolean operators_ below!
-
-
-
+let mightBeBolean = 10 < 5
+let mightBe = 3 > 5
+let falseShit = 4 == 5
+let goodShit = "hola" != "adios"
 
 
 /*:
@@ -70,7 +71,7 @@ if 0 > 1 {
  
  */
 func cruiseControl(currentSpeed: Int, distance: Int, previousDistance: Int) {
-    if true {
+    if currentSpeed <= 60 {
         accelerate()
     }
 }

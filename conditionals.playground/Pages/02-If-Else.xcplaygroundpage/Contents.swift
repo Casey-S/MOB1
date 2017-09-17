@@ -28,10 +28,8 @@
  */
 func cruiseControl(currentSpeed: Int, distance: Int, previousDistance: Int) {
     // Fix this to implement a basic adaptive cruise control
-    if currentSpeed < 60 {
-        accelerate()
+
     }
-}
 /*:
 
  - callout(Hint): You are going to need to put a second `if` statement inside of `else`!
