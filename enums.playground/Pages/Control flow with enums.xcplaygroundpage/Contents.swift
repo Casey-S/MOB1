@@ -118,3 +118,14 @@ func getWeekdayName(day: Weekday) -> String {
 
 getWeekdayName(day: Weekday.first)
 
+func isItFinallyWeekend(day: Weekday) -> String {
+    var dayType: String
+    switch day {
+    case .second, .third, .fourth, .fifth, .sixth: dayType = "\(day) day of the week is a weekday"
+    case .first, .seventh: dayType = "\(day) day of the week is a weekend!"
+    }
+    return dayType
+}
+
+
+isItFinallyWeekend(day: Weekday.first)
