@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad10_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AutolayoutLesson" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qXV-Bi-rAe">
+                                <rect key="frame" x="0.0" y="0.0" width="834" height="555.5"/>
+                                <color key="backgroundColor" red="0.19375295318651165" green="1" blue="0.18382322662598061" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kAS-cP-nSg">
+                                <rect key="frame" x="0.0" y="556.5" width="834" height="555.5"/>
+                                <color key="backgroundColor" red="0.23260829987653076" green="0.35024262441851761" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="qXV-Bi-rAe" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="0T1-JA-be3"/>
+                            <constraint firstItem="qXV-Bi-rAe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="40t-Sa-bEm"/>
+                            <constraint firstAttribute="trailing" secondItem="kAS-cP-nSg" secondAttribute="trailing" id="F6D-Sc-GRj"/>
+                            <constraint firstItem="kAS-cP-nSg" firstAttribute="top" secondItem="qXV-Bi-rAe" secondAttribute="bottom" constant="1" id="PPf-vF-o2p"/>
+                            <constraint firstAttribute="trailing" secondItem="qXV-Bi-rAe" secondAttribute="trailing" id="grB-KP-btO"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="kAS-cP-nSg" secondAttribute="bottom" id="l0u-vN-sIn"/>
+                            <constraint firstItem="kAS-cP-nSg" firstAttribute="height" secondItem="qXV-Bi-rAe" secondAttribute="height" multiplier="2:2" id="uLV-fn-NDf"/>
+                            <constraint firstItem="kAS-cP-nSg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="un8-lC-nnW"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-79.200000000000003" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+</document>

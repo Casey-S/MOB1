@@ -28,3 +28,5 @@ func myNameIs(person: Person?) -> String {
 var nikolas = Person(name: "Nikolas")
 myNameIs(person: nikolas)
 myNameIs(person: nil)
+
+//var maybePerson2 = Person(name: nil)
